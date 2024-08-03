@@ -1,0 +1,67 @@
+1.Wejdź w folder ox_inventory/web/images
+
+2. Wklej wszystkie pliki .png z folderu install/img w cs_drugs
+
+3. Wejdź w folder ox_inventory/data/items.lua
+
+4. Wklej text poniżej do items.lua
+
+	["weed"] = {
+        label = "Weed",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'weed.png',
+		},
+    },
+
+	["coke"] = {
+        label = "Kokaina",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'coke.png',
+		},
+    },
+
+	["opium"] = {
+        label = "Opium",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'opium.png',
+	},
+
+    ["weed_pouch"] = {
+        label = "Paczka Weedu",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'weed_pouch.png',
+		}
+    },
+
+	["coke_pouch"] = {
+        label = "Paczka Kokainy",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'coke_pouch.png',
+		}
+    },
+
+	["opium_pouch"] = {
+        label = "Paczka Opium",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'opium_pouch.png',
+		}
+    },
+},
