@@ -1,2 +1,7 @@
 # cs_drugs
-Skrypt na zbiórke narko, coordy po server-side
+
+**Prosty skrypt na zbiórke i przeróbkę narko**
+
+Wszystkie coordynaty są po server-side.
+
+[Support]: https://discord.gg/cypek-shop
